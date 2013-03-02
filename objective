@@ -1,10 +1,14 @@
-shox
-====
+#!/usr/bin/env coffee
 
-### And slews
+Shox = require('nez').objective 'Shox'
 
+Shox
 
-```
+    class: 'Core Module - Load Handling'
+
+    category: 'Scalability'
+
+    description: """
 
 
         Because sometimes it makes sense to only...
@@ -24,5 +28,4 @@ shox
                   ...now and again.
 
 
-
-```
+    """, (feature) ->  
