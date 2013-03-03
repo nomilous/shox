@@ -5,6 +5,10 @@ module.exports = Shox = (function() {
 
   function Shox() {}
 
+  Shox.start = function() {};
+
+  Shox.stop = function() {};
+
   return Shox;
 
 })();

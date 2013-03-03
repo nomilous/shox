@@ -1,6 +1,5 @@
 require('nez').realize 'Shox', (Shox, test, context, should) -> 
 
-
     context 'before starting', (defaults) ->
 
         defaults 'ENV to "develop"', (done) ->
@@ -21,7 +20,13 @@ require('nez').realize 'Shox', (Shox, test, context, should) ->
         #
 
         does beforeAll: => @server = Shox.start()
-        does afterAll: => @server.stop()
+        does afterAll: => 
+
+            #
+            # TODO: fix context issue here...
+            #
+
+            @server.stop()
         
 
         does 'respond to query', (done, request) ->
@@ -29,8 +34,6 @@ require('nez').realize 'Shox', (Shox, test, context, should) ->
             #
             # pending test
             #
-
-
 
             test done
 
