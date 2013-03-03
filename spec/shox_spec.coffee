@@ -2,7 +2,7 @@ require('nez').realize 'Shox', (Shox, test, context, should) ->
 
     context 'temporary: test the tester', (done) ->
 
-        true.should.equal false
+        true.should.equal true
         test done
 
     context 'before starting', (defaults) ->
