@@ -10,6 +10,8 @@
     }
   ],
   "repository": "git@github.com:nomilous/shox.git",
-  "dependencies": {},
+  "dependencies": {
+    "plex": "0.0.4"
+  },
   "devDependencies": {}
 }
