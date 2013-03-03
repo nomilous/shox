@@ -9,14 +9,16 @@ require('nez').realize 'Shox', (Shox, test, context, should) ->
 
         defaults 'ENV to "develop"', (done) ->
 
+
+            #
+            # pending test
+            #
+
+
             test done
 
 
-    context 'after starting', (does, request) -> 
-
-        #
-        # injected 'request' module
-        #
+    context 'after starting', (does) -> 
 
         #
         # pending:
@@ -26,7 +28,21 @@ require('nez').realize 'Shox', (Shox, test, context, should) ->
         expect afterAll: => @server.stop()
         
 
-        does 'respond to query', (done) ->
+        does 'respond to query', (done, request) ->
+
+
+            done 'temporary: test it injected the request module', (ok) ->
+
+                request.should.equal require 'request'
+                test ok
+
+
+
+            #
+            # pending test
+            #
+
+
 
             test done
 

@@ -13,5 +13,7 @@
   "dependencies": {
     "plex": "0.0.4"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "request": "~2.14.0"
+  }
 }
