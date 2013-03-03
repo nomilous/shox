@@ -20,8 +20,8 @@ require('nez').realize 'Shox', (Shox, test, context, should) ->
         # pending:
         #
 
-        expect beforeAll: => @server = Shox.start()
-        expect afterAll: => @server.stop()
+        does beforeAll: => @server = Shox.start()
+        does afterAll: => @server.stop()
         
 
         does 'respond to query', (done, request) ->
