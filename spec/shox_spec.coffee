@@ -1,9 +1,5 @@
 require('nez').realize 'Shox', (Shox, test, context, should) -> 
 
-    context 'temporary: test the tester', (done) ->
-
-        true.should.equal true
-        test done
 
     context 'before starting', (defaults) ->
 
@@ -29,14 +25,6 @@ require('nez').realize 'Shox', (Shox, test, context, should) ->
         
 
         does 'respond to query', (done, request) ->
-
-
-            done 'temporary: test it injected the request module', (ok) ->
-
-                request.should.equal require 'request'
-                test ok
-
-
 
             #
             # pending test
