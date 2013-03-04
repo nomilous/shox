@@ -4,28 +4,14 @@ Shox = require('nez').objective 'Shox'
 
 Shox
 
-    class: 'Core Module - Load Handling'
+    class: 'Core Module - (dMVC) Distributed Model Service'
 
     category: 'Scalability'
 
     description: """
 
 
-        Because sometimes it makes sense to only...
-
-
-                   ))) ACTUALLY! (((
-        
-
-              ...fetch the record every... 
-
-
-
-              (for example : 10 seconds) 
-
-
-
-                  ...now and again.
+        dMVC - Model Component
 
 
     """, (feature) ->  

@@ -1,31 +1,10 @@
-shox (And slews)
-================
+shox ([dMVC](https://github.com/nomilous/stax))
+===============================================
 
-### Record Caching
+### The Model Component - As a Service
 
+pending
 
-```
-
-
-        Because sometimes it makes sense to only...
-
-
-                   ))) ACTUALLY! (((
-        
-
-              ...fetch the record every... 
-
-
-
-              (for example : 10 seconds) 
-
-
-
-                  ...now and again.
-
-
-
-```
 
 Develop
 -------
