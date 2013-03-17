@@ -4,14 +4,14 @@ Shox = require('nez').objective 'Shox'
 
 Shox
 
-    class: 'Core Module - (dMVC) Distributed Model Service'
+    class: 'Core Module - Distributed Model Service'
 
     category: 'Scalability'
 
     description: """
 
 
-        dMVC - Model Component
+        A record server.
 
 
     """, (feature) ->  
